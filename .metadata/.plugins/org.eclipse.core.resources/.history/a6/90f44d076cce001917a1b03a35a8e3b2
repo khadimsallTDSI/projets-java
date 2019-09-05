@@ -1,0 +1,45 @@
+package repertoire;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+public class TestRepertoire extends JFrame {
+
+	public static void main(String[] args) {
+		Repertoire rep=new Repertoire("Repertoire");
+		JFrame f=new JFrame("Repertoire");
+		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
+		f.setSize(630,600);
+		f.setBackground(Color.ORANGE);
+		f.setLocationRelativeTo(null);
+		JPanel panel=new JPanel();
+		f.setContentPane(panel);
+		panel.setLayout(null);
+		String url="image//rep2.jpg";
+		ImageIcon icone=new ImageIcon(url);
+		JLabel label=new JLabel(icone,JLabel.CENTER);
+		panel.add(label);
+		
+		JMenuBar menu=new JMenuBar();
+		panel.add(menu);
+		menu.setBounds(0,0, 630,60);
+		JButton bAjouter=new JButton("Ajouter Contact");
+		menu.add(bAjouter);
+		JButton bRechercher=new JButton("Rechercher Contact");
+		menu.add(bRechercher);
+		JButton bModifier=new JButton("Modifier Contact");
+		menu.add(bModifier );
+		JButton bSupprimer=new JButton("Supprimer Contact");
+		menu.add(bSupprimer);
+		JButton bQuitter=new JButton("Quitter");
+		menu.add(bQuitter);
+	
+		f.setVisible(true);
+		
+		
+//        
+//        rep.visualiser();
+//        rep.supprimer();
+	}
+
+}

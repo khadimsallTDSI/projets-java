@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;cpt&apos; in &apos;jeuxSecret.Secret&apos; to &apos;compteur&apos;&#x0D;&#x0A;- Original project: &apos;jeux&apos;&#x0D;&#x0A;- Original element: &apos;jeuxSecret.Secret.cpt&apos;&#x0D;&#x0A;- Renamed element: &apos;jeuxSecret.Secret.compteur&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;cpt&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;jeuxSecret{Secret.java[Secret^cpt" name="compteur" references="true" setter="false" stamp="1559070654893" textual="false" version="1.0"/>
+</session>

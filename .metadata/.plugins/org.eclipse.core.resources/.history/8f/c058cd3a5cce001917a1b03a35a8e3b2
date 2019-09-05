@@ -1,0 +1,22 @@
+package repertoire;
+import javax.swing.*;
+import java.awt.*;
+public class TestRepertoire extends JFrame {
+
+	public static void main(String[] args) {
+		JFrame f=new JFrame("Repertoire");
+		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
+		f.setSize(530,600);
+		f.setLocationRelativeTo(null);
+		f.setVisible(true);
+		//String url="../image/rep1.jpg";
+		ImageIcon icon=new 	ImageIcon("image/rep2.jpg");
+		JLabel label=new JLabel(icon,JLabel.CENTER);
+		f.add(label);
+		/Repertoire rep=new Repertoire("Repertoire");
+//        rep.ajouter();
+//        rep.visualiser();
+//        rep.supprimer();
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;x&apos; in &apos;geometrie.Triangle.main(...)&apos; to &apos;ligne&apos;&#x0D;&#x0A;- Original project: &apos;geometrie&apos;&#x0D;&#x0A;- Original element: &apos;geometrie.Triangle.main(String[]).x&apos;&#x0D;&#x0A;- Renamed element: &apos;x&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;x&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;geometrie{Triangle.java[Triangle~main~\[QString;@x!496!506!500!500!I!0!false" name="ligne" references="true" stamp="1559272678765" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+package repertoire;
+import javax.swing.*;
+import java.awt.*;
+public class TestRepertoire extends JFrame {
+
+	public static void main(String[] args) {
+		JFrame f=new JFrame("Repertoire");
+		f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
+		f.setSize(530,600);
+		f.setLocationRelativeTo(null);
+		String url="file:///C:/Users/BAMBA/Documents/angular_projet/mon-projet-angular/repertoiretelephonique/src/repertoire/rep2.jpg";
+		ImageIcon icone=new ImageIcon(url);
+		JLabel label=new JLabel(icone,JLabel.CENTER);
+		f.add(label);
+//		ImageIcon imgf = new ImageIcon("rep2.jpg"); 
+//		JLabel l = new JLabel(imgf); 
+//		f.add(l);
+		f.setVisible(true);
+		
+		Repertoire rep=new Repertoire("Repertoire");
+//        rep.ajouter();
+//        rep.visualiser();
+//        rep.supprimer();
+	}
+
+}
